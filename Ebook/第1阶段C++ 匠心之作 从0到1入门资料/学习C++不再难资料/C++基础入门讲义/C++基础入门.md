@@ -15,21 +15,21 @@
 
 ​	Visual Studio是我们用来编写C++程序的主要工具，我们先将它打开
 
-![1541383178746](assets/1541383178746.png)
+![1541383178746](https://gitee.com/yhcad/image/raw/master/img/2022/1541383178746.png)
 
 
 
-![1541384366413](assets/1541384366413.png)
+![1541384366413](https://gitee.com/yhcad/image/raw/master/img/2022/1541384366413.png)
 
 #### 1.1.2 创建文件
 
 右键源文件，选择添加->新建项
 
-![1541383817248](assets/1541383817248.png)
+![1541383817248](https://gitee.com/yhcad/image/raw/master/img/2022/1541383817248.png)
 
 给C++文件起个名称，然后点击添加即可。
 
-![1541384140042](assets/1541384140042.png)
+![1541384140042](https://gitee.com/yhcad/image/raw/master/img/2022/1541384140042.png)
 
 
 
@@ -51,7 +51,7 @@ int main() {
 
 #### 1.1.4 运行程序
 
-![1541384818688](assets/1541384818688.png)
+![1541384818688](https://gitee.com/yhcad/image/raw/master/img/2022/1541384818688.png)
 
 
 
@@ -527,12 +527,12 @@ int main() {
 
    ```C++
    int main() {
-
+   
    	char str1[] = "hello world";
    	cout << str1 << endl;
        
    	system("pause");
-
+   
    	return 0;
    }
    ```
@@ -545,17 +545,17 @@ int main() {
 
    ```C++
    int main() {
-
+   
    	string str = "hello world";
    	cout << str << endl;
    	
    	system("pause");
-
+   
    	return 0;
    }
    ```
 
-   ​
+   
 
 > 注意：C++风格字符串，需要加入头文件==#include\<string>==
 
@@ -1097,40 +1097,40 @@ if语句的三种形式
 
 * 多条件的if语句
 
-  ​
+  
 
 1. 单行格式if语句：`if(条件){ 条件满足执行的语句 }`
 
-   ![img](assets/clip_image002.png)
+   ![img](https://gitee.com/yhcad/image/raw/master/img/2022/clip_image002.png)
 
    示例：
 
    ```C++
    int main() {
-
+   
    	//选择结构-单行if语句
    	//输入一个分数，如果分数大于600分，视为考上一本大学，并在屏幕上打印
-
+   
    	int score = 0;
    	cout << "请输入一个分数：" << endl;
    	cin >> score;
-
+   
    	cout << "您输入的分数为： " << score << endl;
-
+   
    	//if语句
    	//注意事项，在if判断语句后面，不要加分号
    	if (score > 600)
    	{
    		cout << "我考上了一本大学！！！" << endl;
    	}
-
+   
    	system("pause");
-
+   
    	return 0;
    }
    ```
 
-   ​
+   
 
 
 > 注意：if条件表达式后不要加分号
@@ -1143,9 +1143,9 @@ if语句的三种形式
 
 2. 多行格式if语句：`if(条件){ 条件满足执行的语句 }else{ 条件不满足执行的语句 };`
 
-![img](assets/clip_image002-1541662519170.png)
+![img](https://gitee.com/yhcad/image/raw/master/img/2022/clip_image002-1541662519170.png)
 
-​
+
 
 示例：
 
@@ -1185,13 +1185,13 @@ int main() {
 
 3. 多条件的if语句：`if(条件1){ 条件1满足执行的语句 }else if(条件2){条件2满足执行的语句}... else{ 都不满足执行的语句}`
 
-![img](assets/clip_image002-1541662566808.png)
+![img](https://gitee.com/yhcad/image/raw/master/img/2022/clip_image002-1541662566808.png)
 
-​
 
-​
 
-​
+
+
+
 
 示例：
 
@@ -1227,7 +1227,7 @@ int main() {
 }
 ```
 
-​
+
 
 
 
@@ -1302,7 +1302,7 @@ int main() {
 
 **练习案例：** 三只小猪称体重
 
-有三只小猪ABC，请分别输入三只小猪的体重，并且判断哪只小猪最重？![三只小猪](assets/三只小猪.jpg)
+有三只小猪ABC，请分别输入三只小猪的体重，并且判断哪只小猪最重？![三只小猪](https://gitee.com/yhcad/image/raw/master/img/2022/三只小猪.jpg)
 
 
 
@@ -1460,7 +1460,7 @@ int main() {
 
 **解释：**==只要循环条件的结果为真，就执行循环语句==
 
-![img](assets/clip_image002-1541668640382.png)
+![img](https://gitee.com/yhcad/image/raw/master/img/2022/clip_image002-1541668640382.png)
 
 
 
@@ -1504,7 +1504,7 @@ int main() {
 
 
 
-![猜数字](assets/猜数字.jpg)
+![猜数字](https://gitee.com/yhcad/image/raw/master/img/2022/猜数字.jpg)
 
 
 
@@ -1530,7 +1530,7 @@ int main() {
 
 **注意：**与while的区别在于==do...while会先执行一次循环语句==，再判断循环条件
 
-![img](assets/clip_image002-1541671163478.png)
+![img](https://gitee.com/yhcad/image/raw/master/img/2022/clip_image002-1541671163478.png)
 
 
 
@@ -1631,7 +1631,7 @@ int main() {
 
 **详解：**
 
-![1541673704101](assets/1541673704101.png)
+![1541673704101](https://gitee.com/yhcad/image/raw/master/img/2022/1541673704101.png)
 
 
 
@@ -1653,7 +1653,7 @@ int main() {
 
 案例描述：从1开始数到数字100， 如果数字个位含有7，或者数字十位含有7，或者该数字是7的倍数，我们打印敲桌子，其余数字直接打印输出。
 
-![timg](assets/timg.gif)
+![timg](https://gitee.com/yhcad/image/raw/master/img/2022/timg.gif)
 
 
 
@@ -1673,7 +1673,7 @@ int main() {
 
 例如我们想在屏幕中打印如下图片，就需要利用嵌套循环
 
-![1541676003486](assets/1541676003486.png)
+![1541676003486](https://gitee.com/yhcad/image/raw/master/img/2022/1541676003486.png)
 
 
 
@@ -1722,7 +1722,7 @@ int main() {
 
 案例描述：利用嵌套循环，实现九九乘法表
 
-![0006018857256120_b](assets/0006018857256120_b.jpg)
+![0006018857256120_b](https://gitee.com/yhcad/image/raw/master/img/2022/0006018857256120_b.jpg)
 
 
 
@@ -1950,7 +1950,7 @@ int main() {
 
 
 
-![1541748375356](assets/1541748375356.png)
+![1541748375356](https://gitee.com/yhcad/image/raw/master/img/2022/1541748375356.png)
 
 
 
@@ -2142,7 +2142,7 @@ int main() {
 2. 对每一对相邻元素做同样的工作，执行完毕后，找到第一个最大值。
 3. 重复以上的步骤，每次比较次数-1，直到不需要比较
 
-![1541905327273](assets/1541905327273.png)
+![1541905327273](https://gitee.com/yhcad/image/raw/master/img/2022/1541905327273.png)
 
 **示例：** 将数组 { 4,2,8,0,5,7,1,3,9 } 进行升序排序
 
@@ -2187,7 +2187,7 @@ int main() {
 
 二维数组就是在一维数组上，多加一个维度。
 
-![1541905559138](assets/1541905559138.png)
+![1541905559138](https://gitee.com/yhcad/image/raw/master/img/2022/1541905559138.png)
 
 #### 5.3.1 二维数组定义方式
 
@@ -2730,7 +2730,7 @@ int main() {
 * 内存编号是从0开始记录的，一般用十六进制数字表示
 * 可以利用指针变量保存地址
 
-  ​
+  
 
 ### 7.2 指针变量的定义和使用
 
