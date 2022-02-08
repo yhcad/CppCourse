@@ -1,0 +1,12 @@
+{
+  "version": "0.2.1",
+  "defaults": {},
+  "configurations": [
+    {
+      "type": "native",
+      "name": "01.1书写HelloWord.cpp",
+      "project": "01.1书写HelloWord.cpp",
+      "projectTarget": ""
+    }
+  ]
+}

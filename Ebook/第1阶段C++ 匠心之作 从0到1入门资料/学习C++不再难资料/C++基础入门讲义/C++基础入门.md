@@ -2146,7 +2146,7 @@ int main() {
 
 (如原数组元素为：1,3,2,5,4;逆置后输出结果为:4,5,2,3,1);
 
-
+![](https://gitee.com/yhcad/image/raw/master/img/2022/suzhu2022-02-08_20-29-30.png)
 
 
 

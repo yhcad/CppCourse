@@ -55,5 +55,4 @@ target/
 build/
 Debug/
 Release/
-.vs/
 x64/
