@@ -37,7 +37,7 @@ UpgradeLog.XML
 *.sdf
 *.so
 *.suo
-*.user
+### *.user
 *.zip
 
 #--------------------------
