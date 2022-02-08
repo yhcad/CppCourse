@@ -135,5 +135,14 @@
     <ClCompile Include="05.05跳转语句-goto语句.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="06.01 数组--一维数组定义方式.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="06.02数组-一维数组数组名.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="06.03数组-五只小猪称体重.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
