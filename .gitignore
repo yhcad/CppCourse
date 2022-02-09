@@ -6,7 +6,9 @@
 .git
 
 #--------------------------
-# ignored files for vc++
+# ignored files for vc++ 
+# https://visualstudio.microsoft.com/zh-hans/vs/
+# Visual Studio community 2022
 # 2022-02-08
 #--------------------------
 UpgradeLog.XML

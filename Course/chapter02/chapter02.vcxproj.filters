@@ -18,5 +18,14 @@
     <ClCompile Include="06.04数组-数组元素逆置.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="06.01数组--一维数组定义方式.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="06.02数组-一维数组数组名.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="06.03数组-五只小猪称体重.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
