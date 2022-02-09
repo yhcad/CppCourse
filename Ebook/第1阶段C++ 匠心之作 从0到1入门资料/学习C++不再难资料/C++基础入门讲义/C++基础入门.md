@@ -2172,17 +2172,42 @@ int main() {
 
 ![1541905327273](https://gitee.com/yhcad/image/raw/master/img/2022/1541905327273.png)
 
+算法分析：
+
+![](https://gitee.com/yhcad/image/raw/master/img/2022/maopao_2022-02-09_13-08-19.png)
+
+
+
+结论：排序总轮数=元素个数-1；
+
+​            每轮对比次数=元素个数-排序轮数-1；
+
+
+
+
+
 **示例：** 将数组 { 4,2,8,0,5,7,1,3,9 } 进行升序排序
 
 ```C++
 int main() {
-
+     //利用冒泡排序实现升序序列
 	int arr[9] = { 4,2,8,0,5,7,1,3,9 };
-
+    cout << "排序前： " <<endl;
+    for(int i =0; i<9; i++)
+    {
+      cout << arr[i]<<" " ;  
+    }
+     cout << endl;
+    
+    
+//开始冒泡排序
+ //总共排序轮数=元素个数-1
 	for (int i = 0; i < 9 - 1; i++)
 	{
+        //内层循环对比  次数 = 个数-排序轮数-1；
 		for (int j = 0; j < 9 - 1 - i; j++)
 		{
+            //如果第一个数字，比第二个数字大，交换两个数字。
 			if (arr[j] > arr[j + 1])
 			{
 				int temp = arr[j];
@@ -2216,6 +2241,12 @@ int main() {
 二维数组就是在一维数组上，多加一个维度。
 
 ![1541905559138](https://gitee.com/yhcad/image/raw/master/img/2022/1541905559138.png)
+
+![](https://gitee.com/yhcad/image/raw/master/img/2022/2weishuzhu_2022-02-09_14-16-56.png)
+
+<center>（2行3列数组）<center>
+
+
 
 #### 5.3.1 二维数组定义方式
 

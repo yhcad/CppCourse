@@ -27,5 +27,14 @@
     <ClCompile Include="06.03数组-五只小猪称体重.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="06.05数组-冒泡升序排序.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="06.06数组-二维数组定义方式.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="06.07数组-二组数组成绩统计应用案例.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
